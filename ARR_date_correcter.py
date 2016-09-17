@@ -14,7 +14,7 @@ def run():
 def get_directory(user):
         target_directory = 'C:\\Users\\{u}\\Documents\\My Games\\' \
                            'FINAL FANTASY XIV - A Realm Reborn\\' \
-                           'screenshots\\'.format(u=user)
+                           'screenshots\\'.format(u = user)
         return target_directory
 
 def rename_all_screenshots(directory):
